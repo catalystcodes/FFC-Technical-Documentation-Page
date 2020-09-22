@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    /* position: fixed; */
 }
 
 #navbar header {
@@ -20,9 +21,10 @@ header {
 }
 
 #main-doc {
-    /* overflow-y: auto; */
+    overflow-y: auto;
     flex-grow: 1;
     padding: 1rem;
+    /* position: absolute; */
 }
 
 .nav-link {
@@ -67,9 +69,6 @@ header {
         width: 100%;
         text-align: center;
         padding-top: 0.8rem;
-    }
-    #main-doc {
-        padding-top: 100px;
     }
 }
 
